@@ -13,7 +13,8 @@ const Card = ( {userRandom,colorRandom, clickButton} ) => {
   
     return (
     <article className='card' style={{color: colorRandom}}>
-        <h2 className='card__title'> {userRandom.quote} </h2>
+      <i className="fa-solid fa-quote-left"> </i>
+        <h2  className='card__title'> {userRandom.quote} </h2>
         <ul className='card__list '>
           <li className='card__list'><b className='card__b'>Author: </b>
            {userRandom.author}
