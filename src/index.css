@@ -53,3 +53,8 @@ ul {
 .card__btn: active{
   
 }
+
+.fa-solid{
+  font-size: 60px;
+  padding-right: 100%;
+}
